@@ -3,7 +3,10 @@
 [Обработка исключений (видео)](https://www.youtube.com/watch?v=DwZ5TUULi2s)  
 [Обработка ошибок (Кантор)](https://learn.javascript.ru/try-catch)  
 [Пользовательские ошибки (Кантор)](https://learn.javascript.ru/custom-errors)
-
+#### Задачи:
+- Окунитесь в мир Disney мультфильмов с core-proto-disney
+- Загрузите уже грузовики и поезда в core-proto-vehicle
+- P.S. Вам нужно чтобы все ваши тесты прошли
 
 #### Доп информация:
 - [Привязка контекста (Кантор)](https://learn.javascript.ru/bind)
