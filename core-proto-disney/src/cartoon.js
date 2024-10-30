@@ -6,11 +6,11 @@
  * @param {string} beginning - Several words from the beginning of the cartoon
  */
 function Cartoon(title, year, forChildren = true, beginning = 'Long, long ago...') {
-  // Код тут.
+  
 }
 
 Cartoon.prototype.getDescription = function () {
-  // Код тут.
+ 
 };
 
 Cartoon.prototype.play = function () {
