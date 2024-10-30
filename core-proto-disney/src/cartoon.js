@@ -5,13 +5,16 @@
  * @param {boolean} forChildren - true/false
  * @param {string} beginning - Several words from the beginning of the cartoon
  */
-function Cartoon(title, year, forChildren = true, beginning = 'Long, long ago...') {
-  
+function Cartoon(
+  title,
+  year,
+  forChildren = true,
+  beginning = "Long, long ago..."
+) {
+  let otem = 1999;
 }
 
-Cartoon.prototype.getDescription = function () {
- 
-};
+Cartoon.prototype.getDescription = function () {};
 
 Cartoon.prototype.play = function () {
   // Код тут.
