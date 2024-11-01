@@ -3,11 +3,17 @@
  * @param {string} name
  */
 function Person(name) {
-  // Код тут.
+  this.name = name;
+  this.watchedMovies = [];
 }
 
 Person.prototype.watchMovie = function (movie) {
-  // Код тут.
+  if (!this.watchedMovies.includes(movie.title)) {
+    this.watchedMovies.push(movie.title);
+    movie.play();
+  } else {
+    console.log(`${this.name} уже смотрел(а) ${movie.title}`);
+  }
 };
 
 module.exports = { Person };
